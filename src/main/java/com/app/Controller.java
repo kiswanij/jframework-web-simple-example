@@ -1,11 +1,13 @@
 package com.app;
 
-import javax.faces.bean.ManagedBean;
+import com.jk.web.faces.mb.JKWebController;
 
-import com.jk.web.faces.mb.JKManagedBean;
+import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Named;
 
-@ManagedBean(name = "controller")
-public class Controller extends JKManagedBean {
+@Named("controller")
+@ViewScoped
+public class Controller extends JKWebController {
 	String name;
 
 	public String sayHello() {
