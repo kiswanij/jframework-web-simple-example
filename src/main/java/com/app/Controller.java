@@ -1,6 +1,6 @@
 package com.app;
 
-import com.jk.web.faces.mb.JKWebController;
+import com.jk.web.faces.controllers.JKWebController;
 
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Named;
