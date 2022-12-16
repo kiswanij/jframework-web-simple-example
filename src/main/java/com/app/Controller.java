@@ -1,5 +1,6 @@
 package com.app;
 
+import com.jk.core.util.JK;
 import com.jk.web.faces.controllers.JKWebController;
 
 import jakarta.faces.view.ViewScoped;
