@@ -19,6 +19,7 @@
 			<p:inputText value="#{controller.name}" />
 			<f:facet name="footer">
 				<p:commandButton value="Say Hello" action="#{controller.sayHello()}" />
+				<p:commandButton value="Say Hello to Jalal" action="#{controller.sayHello('Jalal')}" />
 			</f:facet>
 		</p:panelGrid>
 	</h:form>
