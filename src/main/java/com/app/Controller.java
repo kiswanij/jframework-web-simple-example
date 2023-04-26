@@ -1,5 +1,6 @@
 package com.app;
 
+import com.jk.core.annotations.Logged;
 import com.jk.web.faces.controllers.JKWebController;
 
 import jakarta.faces.view.ViewScoped;
@@ -12,7 +13,7 @@ public class Controller extends JKWebController {
 	String name;
 	
 	@Inject
-	Handler handler;
+	com.app.Handler handler;
 
 	@Logged
 	public String sayHello() {

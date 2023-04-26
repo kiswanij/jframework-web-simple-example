@@ -2,9 +2,9 @@ package com.app;
 
 import java.io.Serializable;
 
-import jakarta.annotation.Resource;
+import com.jk.core.annotations.DataAccess;
 
-@Resource
+@DataAccess
 public class Handler implements Serializable{
 	
 	public String sayHelloImpl(String name) {
