@@ -1,6 +1,6 @@
 package com.app;
 
-import com.jk.core.annotations.Logged;
+//import com.jk.core.annotations.Logged;
 import com.jk.web.faces.controllers.JKWebController;
 
 import jakarta.faces.view.ViewScoped;
@@ -15,13 +15,13 @@ public class Controller extends JKWebController {
 	@Inject
 	com.app.Handler handler;
 
-	@Logged
+//	@Logged
 	public String sayHello() {
 		success(handler.sayHelloImpl(name));
 		return null;// return to the same page when the action finish
 	}
 	
-	@Logged
+//	@Logged
 	public String sayHello(String name) {
 		success(handler.sayHelloImpl(name));
 		return null;// return to the same page when the action finish

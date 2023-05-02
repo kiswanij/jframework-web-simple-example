@@ -2,9 +2,11 @@ package com.app;
 
 import java.io.Serializable;
 
-import com.jk.core.annotations.DataAccess;
+import jakarta.enterprise.inject.Model;
 
-@DataAccess
+//import com.jk.core.annotations.DataAccess;
+
+@Model
 public class Handler implements Serializable{
 	
 	public String sayHelloImpl(String name) {
