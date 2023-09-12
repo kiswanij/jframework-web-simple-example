@@ -1,7 +1,7 @@
-# JKFramework-Web Simple Example
+# JFramework-Web Simple Example
 _Last updated: 2022-11-26_
 
-This repository contains a _JKFramework-Web_ that prepare full Faces apps with zero configuration.
+This repository contains a _JFramework-Web_ that prepare full Faces apps with zero configuration.
 
 ## Prerequisites:
 - JDK 17+ Installed
