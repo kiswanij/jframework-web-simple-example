@@ -1,5 +1,5 @@
 # JFramework-Web Simple Example
-_Last updated: 2022-11-26_
+_Last updated: Aug 20, 2025_
 
 This repository contains a _JFramework-Web_ that prepare full Faces apps with zero configuration.
 
